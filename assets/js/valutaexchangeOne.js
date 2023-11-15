@@ -59,5 +59,12 @@ function showResult(myEuroResult, myDollarResult, myDanishAmount) {
 
 
 function calculateExchange(dkAmount, rate){
-    return 'test';
+   
+   // -----this is not necessarry that's in a comment-----
+    /* console.log('dkAmount: '+ rate)
+    console.log('rate: '+ rate); */
+
+    let result = dkAmount * rate;
+
+    return result;
 }
